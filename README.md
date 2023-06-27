@@ -37,7 +37,7 @@ The input file also mentioned the need to throw exceptions in specific cases, su
 ## CSV File
 The project involved reading a CSV file containing the tabular data. The CSV file format was expected to match the following structure:
 
-        <column 0> <column 1> ... <column n-1>
+                    <column 0> <column 1> ... <column n-1>
         <row 0>
         <row 1>
         ...
