@@ -37,11 +37,11 @@ The input file also mentioned the need to throw exceptions in specific cases, su
 ## CSV File
 The project involved reading a CSV file containing the tabular data. The CSV file format was expected to match the following structure:
 
-<column 0> <column 1> ... <column n-1>
-<row 0>
-<row 1>
-...
-<row m-1>
+        <column 0> <column 1> ... <column n-1>
+        <row 0>
+        <row 1>
+        ...
+        <row m-1>
 
 Each row in the CSV file represented a record, and each column contained a value. The values could be numbers or names, all stored as strings. The CSV file had to be read using file input/output functionalities (fstream) and the appropriate parsing techniques.
 
